@@ -13,7 +13,7 @@ else
     Console.WriteLine("Введённый день является выходным");
 }*/
 
-Dictionary<int, string> week = new Dictionary<int, string>()
+/*Dictionary<int, string> week = new Dictionary<int, string>()
 {
     {1, "Понедельник, рабочий день"},
     {2, "Вторник, рабочий день"},
@@ -23,4 +23,4 @@ Dictionary<int, string> week = new Dictionary<int, string>()
     {6, "Суббота, выходной день"},
     {7, "Воскресенье, выходной день"},
 
-}
+}*/
