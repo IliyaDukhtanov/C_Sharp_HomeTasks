@@ -29,4 +29,9 @@ Dictionary<int, string> week = new Dictionary<int, string>()
 };
 Console.WriteLine("Введите цифру, обозначающую день недели:");
 int day = Convert.ToInt32(Console.ReadLine());
+if (day < 1 ^ day > 7)
+{
+    Console.WriteLine("Введённая цифра не соответствует ни одному дню семидневной недели");
+}
+else
 Console.WriteLine(week[day]);
