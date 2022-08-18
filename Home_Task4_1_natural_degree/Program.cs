@@ -6,8 +6,8 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число B:");
 int b = Convert.ToInt32(Console.ReadLine());
 int res = 1;
-for (int i = 1; i <= b; i++)
+for (int i = 0; i < b; i++) // счетчик i может быть от 0 до < b, или от 1 до равно b
 {
-    res = res * a;
+    res *=  a; // краткая запись умножения на себя
 }
 Console.WriteLine("Число " + a + " в степени " + b + " = " + res);
