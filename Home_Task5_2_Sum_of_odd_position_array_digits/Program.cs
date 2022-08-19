@@ -1,9 +1,9 @@
 ﻿// Задайте одномерный массив, заполненный случайными числами. 
 // Найдите сумму элементов, стоящих на нечётных позициях.
 
-static int[] CreateArray(int number) // создание массива случайных чисел
+static int[] CreateArray(int length) // создание массива случайных чисел с задаваемой пользователем длиной
 {
-    int[] array = new int[number];
+    int[] array = new int[length];
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(-100, 100);
