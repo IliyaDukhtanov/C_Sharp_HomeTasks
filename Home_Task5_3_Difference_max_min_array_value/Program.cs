@@ -34,17 +34,17 @@ static void Main(string[] args)
     int posMin = 0;
         for (int i = 0; i < array.Length; i++)
         {
-            Console.Write(array[i] + " ");
+            Console.Write(array[i] + " "); // циклы для поиска позиции max и min
             if (array[i] > array[posMax]) posMax = i;
             else {}
             if (array[i] < array[posMin]) posMin = i;
             else {}
         }
+        //int dif = array[posMax] - array[posMin];
         System.Console.WriteLine();
         Console.WriteLine("Разница между Max и Min элементом массива = " + (array[posMax] - array[posMin]));
         System.Console.WriteLine();
-        //dif = array[posMax] - array[posMin];
-    }
+        }
 PrintResult(array);
 }
 }
