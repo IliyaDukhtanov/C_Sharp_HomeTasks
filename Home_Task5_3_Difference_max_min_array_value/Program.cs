@@ -10,10 +10,10 @@ static void Main(string[] args)
     while (true)
     {
         Console.WriteLine("Введите значение массива:"); ///// Создание массива произвольной длины в ручную.
-        string meaning = Console.ReadLine();
-        if(meaning != "end")
+        string value = Console.ReadLine();
+        if(value != "end")
         {
-            int number = Convert.ToInt32(meaning);
+            int number = Convert.ToInt32(value);
             int[] newArray = array;
             array = new int[array.Length +1];
             for (int i = 0; i < newArray.Length; i++)
