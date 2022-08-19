@@ -1,9 +1,9 @@
 ﻿// Задайте массив заполненный случайными положительными трёхзначными числами. 
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 
-static int[] CreateArray(int number) // создание массива
+static int[] CreateArray(int length) // создание массива с заданной пользователем длиной
 {
-    int[] array = new int[number];
+    int[] array = new int[length];
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(100, 1000);
