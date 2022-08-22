@@ -48,3 +48,17 @@ static void Main(string[] args)
 PrintResult(array);
 }
 }
+
+// Вариант от препода
+/*static int MaxNumberArray(int[] array) // поиск максимума
+{
+    int max = 0;
+    for (int = 0; int < array.Length; int++)
+    {
+        if array[i] > max)
+        {
+            max = array[i]
+        }
+    }
+    return max;
+}*/
