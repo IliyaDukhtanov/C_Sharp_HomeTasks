@@ -26,3 +26,9 @@ static void PrintResult(int[] array)  // расчёт и вывод резуль
 
 Console.Clear();
 PrintResult(CreateArray(123)); // массив в 123 элементов
+
+
+// Вариант препода
+/*using Systems; 
+ int[] startArray = GetArray(123, 0, 1000); 
+ Comsole.WriteLine($"Количество элементов в отрезке [10;99]) = {GetCountElements(start)}
