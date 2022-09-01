@@ -6,7 +6,7 @@ void CreateArray(double[,] matrix)  // Создание двумерного м�
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write("{0,6:F1}", matrix[i, j]);
+            Console.Write("{0,6:F1}", matrix[i, j]); // округлить Math.Ronge(matrix[i, j],2)
         }
         Console.WriteLine();
     }
@@ -17,7 +17,7 @@ void FillArray(double[,] matrix)  //  Заполнение массива слу
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().NextDouble() * 10;
+            matrix[i, j] = new Random().NextDouble() * 10; 
         }
     }
 }
