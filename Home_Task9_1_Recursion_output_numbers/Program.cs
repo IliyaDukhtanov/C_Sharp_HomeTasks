@@ -12,8 +12,6 @@ static int RecursionOutputNumbers(int m, int n) // рекурсивный мет
     if (n == m + 1) return n;
     return RecursionOutputNumbers(m + 1, n);
 }
-//RecursionOutputNumbers(2, 11);
-
 int InputNumbers(string input)  //  метод для ввода данных пользователем
 {
   Console.Write(input);
@@ -29,30 +27,3 @@ Console.WriteLine();
 Console.WriteLine($"Все натуральные числа в диапазоне от {m} до {n}:");
 Console.WriteLine(RecursionOutputNumbers(m,n));
 Console.WriteLine();
-
-
-
-
-
-/*int WriteNumbers(int a, int b)
-{
-    Console.Write(a + " ");
-    if (a == b) return b;
-    return WriteNumbers(a + 1,b);
-}
-WriteNumbers(3, 10); */
-
-
-
-
-
-
-//int Fib(int n)
-//{
-//    Console.Write(n + " ");
-//    if (n == 0 || n ==1) return n;
-//    return n = Fib(n-1) + Fib(n-2);
-//}
-//Fib(10);
-
-
